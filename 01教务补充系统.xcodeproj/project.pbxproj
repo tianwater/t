@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC4826F91C2BC98D00BD1261 /* QFUI.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4826F81C2BC98D00BD1261 /* QFUI.m */; };
+		BC4826FC1C2BCF1100BD1261 /* QFController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4826FB1C2BCF1100BD1261 /* QFController.m */; };
+		BC4827021C2BCF3800BD1261 /* QFBussiness.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4827011C2BCF3800BD1261 /* QFBussiness.m */; };
+		BCDDC1FF1C2B952900FD1576 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDDC1FA1C2B952900FD1576 /* main.m */; };
+		BCDDC2001C2B952900FD1576 /* QFMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDDC1FC1C2B952900FD1576 /* QFMenuItem.m */; };
+		BCDDC2011C2B952900FD1576 /* QFMenuManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDDC1FE1C2B952900FD1576 /* QFMenuManager.m */; };
+		BCDDC2101C2B958C00FD1576 /* QFClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDDC2051C2B958C00FD1576 /* QFClass.m */; };
+		BCDDC2121C2B958C00FD1576 /* QFRecordPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDDC2091C2B958C00FD1576 /* QFRecordPhoto.m */; };
+		BCDDC2131C2B958C00FD1576 /* QFRecords.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDDC20B1C2B958C00FD1576 /* QFRecords.m */; };
+		BCDDC2141C2B958C00FD1576 /* QFStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDDC20D1C2B958C00FD1576 /* QFStudent.m */; };
+		BCDDC2151C2B958C00FD1576 /* QFTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDDC20F1C2B958C00FD1576 /* QFTeacher.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BCDDC1EE1C2B950E00FD1576 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BC4826F71C2BC98D00BD1261 /* QFUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFUI.h; sourceTree = "<group>"; };
+		BC4826F81C2BC98D00BD1261 /* QFUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFUI.m; sourceTree = "<group>"; };
+		BC4826FA1C2BCF1100BD1261 /* QFController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFController.h; sourceTree = "<group>"; };
+		BC4826FB1C2BCF1100BD1261 /* QFController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFController.m; sourceTree = "<group>"; };
+		BC4827001C2BCF3800BD1261 /* QFBussiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFBussiness.h; sourceTree = "<group>"; };
+		BC4827011C2BCF3800BD1261 /* QFBussiness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFBussiness.m; sourceTree = "<group>"; };
+		BCDDC1F01C2B950E00FD1576 /* 01教务补充系统 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01教务补充系统"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCDDC1FA1C2B952900FD1576 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCDDC1FB1C2B952900FD1576 /* QFMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFMenuItem.h; sourceTree = "<group>"; };
+		BCDDC1FC1C2B952900FD1576 /* QFMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFMenuItem.m; sourceTree = "<group>"; };
+		BCDDC1FD1C2B952900FD1576 /* QFMenuManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFMenuManager.h; sourceTree = "<group>"; };
+		BCDDC1FE1C2B952900FD1576 /* QFMenuManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFMenuManager.m; sourceTree = "<group>"; };
+		BCDDC2041C2B958C00FD1576 /* QFClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFClass.h; sourceTree = "<group>"; };
+		BCDDC2051C2B958C00FD1576 /* QFClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFClass.m; sourceTree = "<group>"; };
+		BCDDC2081C2B958C00FD1576 /* QFRecordPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFRecordPhoto.h; sourceTree = "<group>"; };
+		BCDDC2091C2B958C00FD1576 /* QFRecordPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFRecordPhoto.m; sourceTree = "<group>"; };
+		BCDDC20A1C2B958C00FD1576 /* QFRecords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFRecords.h; sourceTree = "<group>"; };
+		BCDDC20B1C2B958C00FD1576 /* QFRecords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFRecords.m; sourceTree = "<group>"; };
+		BCDDC20C1C2B958C00FD1576 /* QFStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFStudent.h; sourceTree = "<group>"; };
+		BCDDC20D1C2B958C00FD1576 /* QFStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFStudent.m; sourceTree = "<group>"; };
+		BCDDC20E1C2B958C00FD1576 /* QFTeacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFTeacher.h; sourceTree = "<group>"; };
+		BCDDC20F1C2B958C00FD1576 /* QFTeacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFTeacher.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCDDC1ED1C2B950E00FD1576 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC4827031C2BD56200BD1261 /* BussinessModel */ = {
+			isa = PBXGroup;
+			children = (
+				BC4827001C2BCF3800BD1261 /* QFBussiness.h */,
+				BC4827011C2BCF3800BD1261 /* QFBussiness.m */,
+			);
+			name = BussinessModel;
+			sourceTree = "<group>";
+		};
+		BCDDC1E71C2B950E00FD1576 = {
+			isa = PBXGroup;
+			children = (
+				BCDDC1F21C2B950E00FD1576 /* 01教务补充系统 */,
+				BCDDC1F11C2B950E00FD1576 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCDDC1F11C2B950E00FD1576 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCDDC1F01C2B950E00FD1576 /* 01教务补充系统 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCDDC1F21C2B950E00FD1576 /* 01教务补充系统 */ = {
+			isa = PBXGroup;
+			children = (
+				BC4827031C2BD56200BD1261 /* BussinessModel */,
+				BCDDC2161C2B95B400FD1576 /* DataModal */,
+				BCDDC2031C2B956300FD1576 /* Controller */,
+				BCDDC2021C2B953000FD1576 /* View(UI) */,
+				BCDDC1FA1C2B952900FD1576 /* main.m */,
+			);
+			path = "01教务补充系统";
+			sourceTree = "<group>";
+		};
+		BCDDC2021C2B953000FD1576 /* View(UI) */ = {
+			isa = PBXGroup;
+			children = (
+				BCDDC1FB1C2B952900FD1576 /* QFMenuItem.h */,
+				BCDDC1FC1C2B952900FD1576 /* QFMenuItem.m */,
+				BCDDC1FD1C2B952900FD1576 /* QFMenuManager.h */,
+				BCDDC1FE1C2B952900FD1576 /* QFMenuManager.m */,
+				BC4826F71C2BC98D00BD1261 /* QFUI.h */,
+				BC4826F81C2BC98D00BD1261 /* QFUI.m */,
+			);
+			name = "View(UI)";
+			sourceTree = "<group>";
+		};
+		BCDDC2031C2B956300FD1576 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC4826FA1C2BCF1100BD1261 /* QFController.h */,
+				BC4826FB1C2BCF1100BD1261 /* QFController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BCDDC2161C2B95B400FD1576 /* DataModal */ = {
+			isa = PBXGroup;
+			children = (
+				BCDDC2041C2B958C00FD1576 /* QFClass.h */,
+				BCDDC2051C2B958C00FD1576 /* QFClass.m */,
+				BCDDC2081C2B958C00FD1576 /* QFRecordPhoto.h */,
+				BCDDC2091C2B958C00FD1576 /* QFRecordPhoto.m */,
+				BCDDC20A1C2B958C00FD1576 /* QFRecords.h */,
+				BCDDC20B1C2B958C00FD1576 /* QFRecords.m */,
+				BCDDC20C1C2B958C00FD1576 /* QFStudent.h */,
+				BCDDC20D1C2B958C00FD1576 /* QFStudent.m */,
+				BCDDC20E1C2B958C00FD1576 /* QFTeacher.h */,
+				BCDDC20F1C2B958C00FD1576 /* QFTeacher.m */,
+			);
+			name = DataModal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCDDC1EF1C2B950E00FD1576 /* 01教务补充系统 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCDDC1F71C2B950F00FD1576 /* Build configuration list for PBXNativeTarget "01教务补充系统" */;
+			buildPhases = (
+				BCDDC1EC1C2B950E00FD1576 /* Sources */,
+				BCDDC1ED1C2B950E00FD1576 /* Frameworks */,
+				BCDDC1EE1C2B950E00FD1576 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01教务补充系统";
+			productName = "01教务补充系统";
+			productReference = BCDDC1F01C2B950E00FD1576 /* 01教务补充系统 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCDDC1E81C2B950E00FD1576 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = qianfeng;
+				TargetAttributes = {
+					BCDDC1EF1C2B950E00FD1576 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = BCDDC1EB1C2B950E00FD1576 /* Build configuration list for PBXProject "01教务补充系统" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCDDC1E71C2B950E00FD1576;
+			productRefGroup = BCDDC1F11C2B950E00FD1576 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCDDC1EF1C2B950E00FD1576 /* 01教务补充系统 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCDDC1EC1C2B950E00FD1576 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC4826F91C2BC98D00BD1261 /* QFUI.m in Sources */,
+				BCDDC2121C2B958C00FD1576 /* QFRecordPhoto.m in Sources */,
+				BCDDC2131C2B958C00FD1576 /* QFRecords.m in Sources */,
+				BCDDC2001C2B952900FD1576 /* QFMenuItem.m in Sources */,
+				BCDDC2101C2B958C00FD1576 /* QFClass.m in Sources */,
+				BCDDC2151C2B958C00FD1576 /* QFTeacher.m in Sources */,
+				BC4827021C2BCF3800BD1261 /* QFBussiness.m in Sources */,
+				BCDDC2141C2B958C00FD1576 /* QFStudent.m in Sources */,
+				BC4826FC1C2BCF1100BD1261 /* QFController.m in Sources */,
+				BCDDC1FF1C2B952900FD1576 /* main.m in Sources */,
+				BCDDC2011C2B952900FD1576 /* QFMenuManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BCDDC1F51C2B950F00FD1576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BCDDC1F61C2B950F00FD1576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BCDDC1F81C2B950F00FD1576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCDDC1F91C2B950F00FD1576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCDDC1EB1C2B950E00FD1576 /* Build configuration list for PBXProject "01教务补充系统" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCDDC1F51C2B950F00FD1576 /* Debug */,
+				BCDDC1F61C2B950F00FD1576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCDDC1F71C2B950F00FD1576 /* Build configuration list for PBXNativeTarget "01教务补充系统" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCDDC1F81C2B950F00FD1576 /* Debug */,
+				BCDDC1F91C2B950F00FD1576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCDDC1E81C2B950E00FD1576 /* Project object */;
+}

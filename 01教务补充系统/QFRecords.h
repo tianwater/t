@@ -11,14 +11,15 @@
 //属性：学生编号，日期，上班打卡时间，下班打卡时间，考勤状态（1、正常，2、迟到，3、早退，4、旷课，5、请假）。总结。
 
 @interface QFRecords : NSObject
-{
-    NSString *stuNo;
-    NSDate *date;
-    NSDate *startDate;
-    NSDate *endDate;
-    int state;//1、正常，2、迟到，3、早退，4、旷课，5、请假）
-    NSString *summary;//总结
-}
+
+@property NSString *classNo;
+@property NSString *stuNo;
+@property NSDate *date;
+@property NSDate *startDate;
+@property NSDate *endDate;
+@property int state;//1、正常，2、迟到，3、早退，4、旷课，5、请假）
+@property NSString *summary;//总结
+
 
 -(QFRecords*)initWithStuNo:(NSString*)stuNo andDate:(NSDate*)date andStartDate:(NSDate*)startDate;
 

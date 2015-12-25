@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>02教务补充系统.xcscheme</key>
+		<key>01教务补充系统.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>BC84F72E1C23B208009CDC0F</key>
+		<key>BCDDC1EF1C2B950E00FD1576</key>
 		<dict>
 			<key>primary</key>
 			<true/>
